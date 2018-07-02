@@ -1,9 +1,9 @@
 class Remote < Formula
   desc ""
   homepage ""
-  url "https://github.com/ThatTomPerson/remote/releases/download/2.0.1/remote_2.0.1_darwin_amd64.tar.gz"
-  version "2.0.1"
-  sha256 "8d7c9cfaf1301b96a405f3c1740c035820bfdb700ca5aa31b85e363d64ee6176"
+  url "https://github.com/ThatTomPerson/remote/releases/download/v2.0.2/remote_2.0.2_darwin_amd64.tar.gz"
+  version "2.0.2"
+  sha256 "a9b432943bbaf971ad2adb43553aa62d3daa7572f21b71345ed0aed926877309"
 
   def install
     bin.install "remote"
