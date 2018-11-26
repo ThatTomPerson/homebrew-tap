@@ -1,9 +1,9 @@
 class DevServer < Formula
   desc ""
   homepage ""
-  url "https://github.com/ThatTomPerson/dev-server/releases/download/0.0.2/dev-server_0.0.2_darwin_amd64.tar.gz"
-  version "0.0.2"
-  sha256 "0c6ca7d26b8bc38f5befe72af2432664e9e38d65d04c7aefd7a9a1e3042a477e"
+  url "https://github.com/ThatTomPerson/dev-server/releases/download/0.0.3/dev-server_0.0.3_darwin_amd64.tar.gz"
+  version "0.0.3"
+  sha256 "c4fc058701e1835348ce124976d115fb273d3adc1b5334545ab4588426a7365f"
 
   def install
     bin.install "dev-server"
