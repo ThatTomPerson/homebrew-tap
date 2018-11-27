@@ -1,11 +1,17 @@
 class DevServer < Formula
   desc ""
   homepage ""
-  url "https://github.com/ThatTomPerson/dev-server/releases/download/0.0.6/dev-server_0.0.6_darwin_amd64.tar.gz"
-  version "0.0.6"
-  sha256 "e59a4725606cc38dca270a74b5c036400a6e42e23f840ecf15af3147f352096e"
+  url "https://github.com/ThatTomPerson/dev-server/releases/download/0.0.7/dev-server_0.0.7_darwin_amd64.tar.gz"
+  version "0.0.7"
+  sha256 "364078f781d95672edcbd7ad156bb46f33f838e20c3391f15e0a0fd9be093033"
+  
+  depends_on "mkcert"
 
   def install
     bin.install "dev-server"
+  end
+
+  test do
+    system "#{bin}/dev-server -version"
   end
 end
