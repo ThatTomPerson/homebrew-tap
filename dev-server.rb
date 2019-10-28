@@ -1,9 +1,9 @@
 class DevServer < Formula
   desc ""
   homepage ""
-  url "https://github.com/ThatTomPerson/dev-server/releases/download/0.0.14/dev-server_0.0.14_darwin_amd64.tar.gz"
-  version "0.0.14"
-  sha256 "22c06010ddf99fc7bd25ff156ed73be6426a2bc7804bc76467f67c7eea6cb7f8"
+  url "https://github.com/ThatTomPerson/dev-server/releases/download/0.0.15/dev-server_0.0.15_darwin_amd64.tar.gz"
+  version "0.0.15"
+  sha256 "51f4e1ba0c56a4168a83105bf797133b3afbbcb547bc42e8f546d47cb277b853"
   
   depends_on "mkcert"
 
